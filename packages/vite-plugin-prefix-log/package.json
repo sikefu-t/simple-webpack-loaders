@@ -1,0 +1,31 @@
+{
+  "name": "vite-plugin-prefix-log",
+  "version": "1.0.8",
+  "description": "一个vite 插件，为异步操作自动添加try-catch语句",
+  "main": "dist/index.cjs.js",  
+  "module": "dist/index.esm.js",  
+  "scripts": {
+    "build": "node ./build/build.mjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "vite",
+    "plugin",
+    "javascript"
+  ],
+  "author": "sikefu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sikefu-t/simple-webpack-loaders/tree/main/packages/vite-plugin-prefix-log"
+  },
+  "license": "ISC",
+  "peerDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/generator": "^7.26.2",
+    "@babel/parser": "^7.26.2",
+    "@babel/traverse": "^7.25.9",
+    "@babel/types": "^7.26.0"
+  }
+}

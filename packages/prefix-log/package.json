@@ -17,10 +17,10 @@
     "vue",
     "javascript"
   ],
-  "author": "tuyongtao",
+  "author": "sikefu",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tuyongtao-T/simple-webpack-loaders/tree/main/packages/prefix-log"
+    "url": "https://github.com/sikefu-t/simple-webpack-loaders/tree/main/packages/prefix-log"
   },
   "license": "ISC",
   "devDependencies": {
@@ -30,8 +30,11 @@
     "loader-utils": "^2.0.4"
   },
   "peerDependencies": {
-    "@babel/cli": "^7.23.9",
     "@babel/core": "^7.24.0",
-    "@babel/preset-env": "^7.23.9"
+    "@babel/generator": "^7.26.2",
+    "@babel/parser": "^7.26.2",
+    "@babel/traverse": "^7.25.9",
+    "@babel/types": "^7.26.0",
+    "loader-utils": "^2.0.4"
   }
 }

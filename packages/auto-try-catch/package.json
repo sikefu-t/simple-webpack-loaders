@@ -2,15 +2,12 @@
   "name": "no-catch-loader",
   "version": "1.0.8",
   "description": "一个webpack loader，为异步操作自动添加try-catch语句",
-  "main": "src/index.js",
+  "main": "outfile.cjs",
   "scripts": {
-    "test": "jest"
-  },
-  "jest": {
-    "testEnvironment": "node"
+    "build": "node ./build/build.mjs"
   },
   "files": [
-    "src"
+    "outfile.cjs"
   ],
   "keywords": [
     "webpack",
@@ -19,21 +16,17 @@
     "vue",
     "javascript"
   ],
-  "author": "tuyongtao",
+  "author": "sikefu",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tuyongtao-T/simple-webpack-loaders/tree/main/packages/auto-try-catch"
+    "url": "https://github.com/sikefu-t/simple-webpack-loaders/tree/main/packages/auto-try-catch"
   },
   "license": "ISC",
-  "devDependencies": {
-    "@babel/cli": "^7.23.9",
-    "@babel/core": "^7.24.0",
-    "@babel/preset-env": "^7.23.9",
-    "loader-utils": "^2.0.4"
-  },
   "peerDependencies": {
-    "@babel/cli": "^7.23.9",
     "@babel/core": "^7.24.0",
-    "@babel/preset-env": "^7.23.9"
+    "@babel/parser": "^7.26.2",
+    "@babel/traverse": "^7.25.9",
+    "@babel/types": "^7.26.0",
+    "loader-utils": "^2.0.4"
   }
 }
